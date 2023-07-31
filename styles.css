@@ -1,0 +1,45 @@
+.clock{
+    height: 270px;
+    width: 200px;
+    background-color:white;
+    color: black;
+    display: flex;
+    margin: auto;
+    margin-top:5px ;
+    border-radius: 10px;
+}
+.blue{
+    background-color: blue;
+    color: black;
+}
+.green{
+    background-color: green;
+    color: black;
+}
+.red{
+    background-color: red;
+    color: black;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.y{
+    background-color: yellow;
+}
+.yellow{
+    background-color: yellow;
+    color: black;
+    
+}
+.light{
+    background-color: white;
+    color: black;
+}
+.hello
+{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
