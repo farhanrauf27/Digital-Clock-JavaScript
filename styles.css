@@ -44,4 +44,7 @@ body{
     margin: auto;
 
 }
-
+.pink{
+    background-color: pink;
+    color: black;
+}
