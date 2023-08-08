@@ -84,8 +84,3 @@ function dark() {
 
 }
 
-let f=2
-let g=5
-if(a==b){
-    console.log(a+b)
-}
