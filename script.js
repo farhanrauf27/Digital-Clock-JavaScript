@@ -1,3 +1,5 @@
+// Function to start a Clock
+
 function startTime() {
     const today = new Date();
     let h = today.getHours();
