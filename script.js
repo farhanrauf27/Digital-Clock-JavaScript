@@ -1,5 +1,5 @@
 // Function to start a Clock
-
+console.log("JavaScript Clock")
 function startTime() {
     const today = new Date();
     let h = today.getHours();
