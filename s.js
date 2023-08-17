@@ -1,48 +1,46 @@
-// Task 1: Code a Person class
-class Person {
-    constructor(name,age,energy){
-        this.name=name;
-        this.age=age;
-        this.energy=energy;
+// Task 1
+var dairy = ['cheese', 'sour cream', 'milk', 'yogurt', 'ice cream', 'milkshake']
+function logDairy() {
+    for(a of dairy){
+        console.log(a)
     }
-    name = "Tom"
-    age = 20
-    energy = 100
- sleep(){
-    let x=this.energy+10
-    console.log("Increased Energy level is: "+x)
 }
- doSomethingFun(){
-    let y=this.energy -10
-    console.log("Decrased Energy level is: " +y)
-}
-}
-// Task 2: Code a Worker class
-class Worker extends Person{
-    constructor(name,age,energy,xp,hourlyWage){
-        super()
-        this.xp=xp
-        this.hourlyWage=hourlyWage
+// Task 2
+function birdCan() {
+    const animal = {
+      canJump: true
+    };
+  
+    const bird = Object.create(animal);
+  
+    bird.canFly = true;
+  
+    bird.hasFeathers = true;
+  
+    for (prop of Object.keys(bird)) {
+      console.log(prop + ":" + " " + bird[prop])
     }
-    xp = 0
-    hourlyWage = 10;
- goToWork(){
-    let c=this.xp+10
-    console.log("Increased xp is: "+c)
-}
-}
-// Task 3: Code an intern object, run methods
-function intern() {
-    let intern=new Worker("Bob",21,110,0,10)
-    intern.goToWork()
-    return intern
-}
+  }
+  birdCan();
 
-// Task 4: Code a manager object, methods
-function manager() {
-    let manager= new Worker("Alice",30,120,100,30)
-    manager.doSomethingFun()
-    return manager
+
+
+
+// Task 3
+function animalCan() {
+    const animal = {
+        canJump: true
+    };
+
+    const bird = Object.create(animal);
+
+    bird.canFly = true;
+
+    bird.hasFeathers = true;
     
+    for (const prop in bird) {
+        console.log(prop + ":" + " " + bird[prop]);
+    }
 }
 
+    animalCan();
